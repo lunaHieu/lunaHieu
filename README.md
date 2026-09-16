@@ -27,21 +27,21 @@ Evidence-aware research and data foundation for studying investment-scam signals
 
 **Research focus:** case-first ground truth, provenance-aware data contracts, leakage-safe dataset splits, and reproducible text-baseline evaluation. The repository also keeps financial-claim and URL-signal work behind explicit review and validation gates; it is research infrastructure, not a production detection service.
 
-### [Course Registration System — Microservices](https://github.com/lunaHieu/crs-microservices)
+### GuardBatXat — Disaster Response & Safe Routing
 
-Course-registration system built around a React SPA and four Spring services behind an API gateway.
+Team research project for disaster monitoring, evacuation support, and emergency-response coordination in Bát Xát, Lào Cai. [Backend](https://github.com/LeGiaHung29805/GuardBatXat) · [Client](https://github.com/LeGiaHung29805/GuardBatXat-Client) · [Spatial services](https://github.com/LeGiaHung29805/Spatial-Intelligence)
 
-`Java` `Spring Boot` `React` `TypeScript` `MySQL` `Docker`
+`Java` `Spring Boot` `Next.js` `PostgreSQL / PostGIS` `Python` `WebGIS`
 
-**Engineering focus:** database-per-service boundaries, gateway routing, JWT/RBAC checks, API-key scopes, and service-to-service registration flows.
+**Engineering focus:** role-based emergency workflows, real-time SOS and location updates, spatial data management, and risk-aware safe-route / shelter selection using graph-based routing costs.
 
-### [MedBooking Java](https://github.com/lunaHieu/medbooking-java)
+### MedBooking — Healthcare Scheduling Platform
 
-Medical-booking REST API for appointment scheduling, user management, and doctor availability.
+Full-stack healthcare scheduling application. [Spring Boot API](https://github.com/lunaHieu/medbooking-java) · [Next.js client](https://github.com/lunaHieu/Medbooking-Client)
 
-`Java` `Spring Boot` `PostgreSQL` `JWT` `Docker`
+`Java` `Spring Boot` `Next.js` `TypeScript` `MySQL` `JWT`
 
-**Engineering focus:** authentication and authorization for a backend API with scheduling-oriented domain workflows.
+**Engineering focus:** authentication and role-based operations, appointment and doctor-schedule workflows, medical records, notifications, and database migrations.
 
 ## Technical Toolkit
 
@@ -49,8 +49,8 @@ Medical-booking REST API for appointment scheduling, user management, and doctor
 | --- | --- |
 | Languages | Java · Python · C · C++ · PHP · JavaScript · TypeScript · SQL |
 | Frontend | HTML · CSS · React · Next.js |
-| Backend | Node.js · REST APIs · Java / Spring Boot *(actively developing)* |
-| Data & AI | Relational database design · SQL Server · Hadoop / HDFS · Machine Learning · NLP |
+| Backend | Java · Spring Boot · Node.js · REST APIs |
+| Data & AI | MySQL · PostgreSQL / PostGIS · SQL Server · Hadoop / HDFS · Machine Learning · NLP |
 | Security | Networking fundamentals · Wireshark · Nmap · phishing and scam analysis |
 | Tools | Git · GitHub · Docker · Linux · Windows · VMware |
 
