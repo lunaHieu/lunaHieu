@@ -7,12 +7,25 @@
   <path d="M860 0V320M960 0V320M1060 0V320M1160 0V320" stroke="#162238" stroke-width="1"/>
   <path d="M738 250H1200M738 250V44H1200" stroke="#2DD4BF" stroke-opacity=".52" stroke-width="2"/>
   <circle cx="738" cy="250" r="5" fill="#2DD4BF"/>
+  <circle cx="738" cy="250" r="12" stroke="#2DD4BF" stroke-width="1.5" fill="none" opacity="0">
+    <animate attributeName="r" values="7;20;7" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".6;0;.6" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="1036" cy="130" r="5" fill="#60A5FA"/>
   <path d="M738 250L850 190L950 224L1036 130L1150 78" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M850 190L950 224" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
+  <circle r="4" fill="#E0F2FE">
+    <animate attributeName="cx" values="738;850;950;1036;1150;738" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="250;190;224;130;78;250" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;1;1;0" dur="9s" repeatCount="indefinite"/>
+  </circle>
   <text x="74" y="86" fill="#94A3B8" font-family="monospace" font-size="16" letter-spacing="3">VAN HIEU NGUYEN / LUNA HIEU</text>
   <text x="70" y="156" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="47" font-weight="700">IT Student · AI &amp; Software Engineering</text>
   <text x="74" y="204" fill="#B8C4D8" font-family="Arial, sans-serif" font-size="22">Building practical systems with thoughtful engineering.</text>
-  <rect x="74" y="248" width="230" height="34" rx="17" fill="#13243A"/>
-  <text x="93" y="271" fill="#7DD3FC" font-family="monospace" font-size="15">SYSTEMS / DATA / AI</text>
+  <rect x="74" y="246" width="596" height="38" rx="6" fill="#13243A" stroke="#29435D"/>
+  <circle cx="94" cy="265" r="4" fill="#2DD4BF"/>
+  <text x="110" y="270" fill="#C8D7EA" font-family="monospace" font-size="14">$ focus --now  →  ISI · BACKEND SYSTEMS · SPATIAL COMPUTING</text>
+  <rect x="632" y="257" width="7" height="16" fill="#7DD3FC">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
 </svg>
