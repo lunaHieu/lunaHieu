@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lunaHieu/lunaHieu/main/assets/header.svg?v=a780ffc" alt="Van Hieu Nguyen — IT Student, AI and Software Engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/lunaHieu/lunaHieu/main/assets/header.svg?v=motion-v2" alt="Van Hieu Nguyen — IT Student, AI and Software Engineering" width="100%" />
 </p>
 
 <p align="center">

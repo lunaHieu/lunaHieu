@@ -5,27 +5,53 @@
   <rect x="1" y="1" width="1198" height="318" stroke="#243047" stroke-width="2"/>
   <path d="M0 250H1200M0 190H1200M0 130H1200M0 70H1200" stroke="#162238" stroke-width="1"/>
   <path d="M860 0V320M960 0V320M1060 0V320M1160 0V320" stroke="#162238" stroke-width="1"/>
-  <path d="M738 250H1200M738 250V44H1200" stroke="#2DD4BF" stroke-opacity=".52" stroke-width="2"/>
-  <circle cx="738" cy="250" r="5" fill="#2DD4BF"/>
-  <circle cx="738" cy="250" r="12" stroke="#2DD4BF" stroke-width="1.5" fill="none" opacity="0">
-    <animate attributeName="r" values="7;20;7" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".6;0;.6" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1036" cy="130" r="5" fill="#60A5FA"/>
-  <path d="M738 250L850 190L950 224L1036 130L1150 78" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M850 190L950 224" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
-  <circle r="4" fill="#E0F2FE">
-    <animate attributeName="cx" values="738;850;950;1036;1150;738" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="250;190;224;130;78;250" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;1;1;0" dur="9s" repeatCount="indefinite"/>
-  </circle>
-  <text x="74" y="86" fill="#94A3B8" font-family="monospace" font-size="16" letter-spacing="3">VAN HIEU NGUYEN / LUNA HIEU</text>
-  <text x="70" y="156" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="47" font-weight="700">IT Student · AI &amp; Software Engineering</text>
-  <text x="74" y="204" fill="#B8C4D8" font-family="Arial, sans-serif" font-size="22">Building practical systems with thoughtful engineering.</text>
-  <rect x="74" y="246" width="596" height="38" rx="6" fill="#13243A" stroke="#29435D"/>
-  <circle cx="94" cy="265" r="4" fill="#2DD4BF"/>
-  <text x="110" y="270" fill="#C8D7EA" font-family="monospace" font-size="14">$ focus --now  →  ISI · BACKEND SYSTEMS · SPATIAL COMPUTING</text>
-  <rect x="632" y="257" width="7" height="16" fill="#7DD3FC">
-    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".55s" fill="freeze"/>
+    <path d="M738 250H1200M738 250V44H1200" stroke="#2DD4BF" stroke-opacity=".52" stroke-width="2"/>
+    <line x1="770" y1="48" x2="770" y2="254" stroke="#7DD3FC" stroke-width="1" opacity="0">
+      <animate attributeName="x1" values="770;1170;770" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="770;1170;770" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.28;0" dur="11s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="738" cy="250" r="5" fill="#2DD4BF"/>
+    <circle cx="738" cy="250" r="12" stroke="#2DD4BF" stroke-width="1.5" fill="none" opacity="0">
+      <animate attributeName="r" values="7;20;7" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".6;0;.6" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1036" cy="130" r="5" fill="#60A5FA"/>
+    <path d="M738 250L850 190L950 224L1036 130L1150 78" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M850 190L950 224" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
+    <circle r="4" fill="#E0F2FE">
+      <animate attributeName="cx" values="738;850;950;1036;1150;738" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;190;224;130;78;250" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;1;0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.8" fill="#2DD4BF">
+      <animate attributeName="cx" values="738;850;950;1036;1150;738" dur="9s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;190;224;130;78;250" dur="9s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.9;.9;.9;.9;0" dur="9s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.4" fill="#60A5FA">
+      <animate attributeName="cx" values="738;850;950;1036;1150;738" dur="9s" begin="-6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;190;224;130;78;250" dur="9s" begin="-6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.8;.8;.8;.8;0" dur="9s" begin="-6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin=".2s" dur=".5s" fill="freeze"/>
+    <text x="74" y="86" fill="#94A3B8" font-family="monospace" font-size="16" letter-spacing="3">VAN HIEU NGUYEN / LUNA HIEU</text>
+    <text x="70" y="156" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="47" font-weight="700">IT Student · AI &amp; Software Engineering</text>
+    <text x="74" y="204" fill="#B8C4D8" font-family="Arial, sans-serif" font-size="22">Building practical systems with thoughtful engineering.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin=".45s" dur=".45s" fill="freeze"/>
+    <rect x="74" y="246" width="596" height="38" rx="6" fill="#13243A" stroke="#29435D"/>
+    <circle cx="94" cy="265" r="4" fill="#2DD4BF">
+      <animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="110" y="270" fill="#C8D7EA" font-family="monospace" font-size="14">$ path  →  AI &amp; SOFTWARE ENGINEERING · BACKEND DEVELOPMENT</text>
+    <rect x="605" y="257" width="7" height="16" fill="#7DD3FC">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
