@@ -9,15 +9,23 @@
 
 ## About
 
-I’m **Van Hieu Nguyen**, an IT student working across AI, software engineering, and backend development. I enjoy turning technical ideas into systems with clear boundaries, useful APIs, and maintainable data flows. My current work explores investment-scam intelligence and explainable fraud detection, alongside Java backend architecture, full-stack applications, and distributed-data fundamentals. I care about understanding how a system works underneath the framework—not only making it run.
+I’m **Van Hieu Nguyen**, an IT student working across AI, software engineering, and backend development. I enjoy turning technical ideas into systems with clear boundaries, useful APIs, and maintainable data flows. My current work develops an evidence-aware foundation for investment-scam intelligence, alongside Java backend architecture, full-stack applications, and distributed-data fundamentals. I care about understanding how a system works underneath the framework—not only making it run.
 
 ## Current Focus
 
-- **Developing:** Investment Scam Intelligence — an AI research project for analysing social-media investment-scam patterns with evidence-oriented risk signals and explainability.
+- **Developing:** Investment Scam Intelligence — an evidence-aware research foundation for analysing online investment-scam signals without weakening data provenance or evaluation integrity.
 - **Building:** backend systems with Java and Spring Boot, with attention to API boundaries, authentication, and data modelling.
 - **Learning:** advanced machine learning, system design, and deployment fundamentals for AI-enabled systems.
 
 ## Selected Work
+
+### [Investment Scam Intelligence](https://github.com/lunaHieu/investment-scam-intelligence)
+
+Evidence-aware research and data foundation for studying investment-scam signals in online content.
+
+`Python` `Machine Learning` `NLP` `Explainable AI`
+
+**Research focus:** case-first ground truth, provenance-aware data contracts, leakage-safe dataset splits, and reproducible text-baseline evaluation. The repository also keeps financial-claim and URL-signal work behind explicit review and validation gates; it is research infrastructure, not a production detection service.
 
 ### [Course Registration System — Microservices](https://github.com/lunaHieu/crs-microservices)
 
@@ -34,14 +42,6 @@ Medical-booking REST API for appointment scheduling, user management, and doctor
 `Java` `Spring Boot` `PostgreSQL` `JWT` `Docker`
 
 **Engineering focus:** authentication and authorization for a backend API with scheduling-oriented domain workflows.
-
-### Investment Scam Intelligence
-
-Ongoing AI research project examining investment-scam content on social platforms.
-
-`Python` `Machine Learning` `NLP` `Explainable AI`
-
-**Research focus:** claim, offer, and identity signals; evidence-based ground truth; interpretable risk scoring; and a future multi-modal extension. This is active research work, not presented as a production service.
 
 ## Technical Toolkit
 
