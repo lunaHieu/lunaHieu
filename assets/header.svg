@@ -7,6 +7,11 @@
   <path d="M1128 284H1172V240" stroke="#60A5FA" stroke-opacity=".55" stroke-width="2"/>
   <path d="M0 250H1200M0 190H1200M0 130H1200M0 70H1200" stroke="#162238" stroke-width="1"/>
   <path d="M860 0V320M960 0V320M1060 0V320M1160 0V320" stroke="#162238" stroke-width="1"/>
+  <g>
+    <animateTransform attributeName="transform" type="skewX" values="0;-.8;0;.8;0" dur="6s" repeatCount="indefinite"/>
+    <rect x="74" y="28" width="40" height="26" fill="#DA251D"/>
+    <path d="M94 32L95.9 38.1L102.3 38.1L97.1 41.9L99.1 48L94 44.2L88.9 48L90.9 41.9L85.7 38.1L92.1 38.1Z" fill="#FFDD00"/>
+  </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur=".55s" fill="freeze"/>
     <path d="M738 250H1200M738 250V44H1200" stroke="#2DD4BF" stroke-opacity=".52" stroke-width="2"/>
