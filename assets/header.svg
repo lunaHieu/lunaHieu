@@ -3,6 +3,8 @@
   <desc id="desc">A restrained, dark technical header for a software engineering portfolio.</desc>
   <rect width="1200" height="320" fill="#0B1220"/>
   <rect x="1" y="1" width="1198" height="318" stroke="#243047" stroke-width="2"/>
+  <path d="M28 36H72M28 36V80" stroke="#2DD4BF" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M1128 284H1172V240" stroke="#60A5FA" stroke-opacity=".55" stroke-width="2"/>
   <path d="M0 250H1200M0 190H1200M0 130H1200M0 70H1200" stroke="#162238" stroke-width="1"/>
   <path d="M860 0V320M960 0V320M1060 0V320M1160 0V320" stroke="#162238" stroke-width="1"/>
   <g opacity="0">
@@ -13,6 +15,11 @@
       <animate attributeName="x2" values="770;1170;770" dur="11s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;.28;0" dur="11s" repeatCount="indefinite"/>
     </line>
+    <text x="992" y="29" fill="#6F819B" font-family="monospace" font-size="12" letter-spacing="2">PROFILE / 01</text>
+    <circle cx="1155" cy="25" r="3" fill="#2DD4BF">
+      <animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="934" y="293" fill="#6F819B" font-family="monospace" font-size="12" letter-spacing="1.5">LEARN · BUILD · ITERATE</text>
     <circle cx="738" cy="250" r="5" fill="#2DD4BF"/>
     <circle cx="738" cy="250" r="12" stroke="#2DD4BF" stroke-width="1.5" fill="none" opacity="0">
       <animate attributeName="r" values="7;20;7" dur="2.8s" repeatCount="indefinite"/>
